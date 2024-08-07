@@ -26,7 +26,7 @@ body, html {
 .hero img {
     max-width: 100%;
     height: auto;
-    background-image: url(./fundo.png);
+    background-image: url(./imgs/fundo.png);
 }
 
 #about, #programacao, #speakers, #sponsors {
