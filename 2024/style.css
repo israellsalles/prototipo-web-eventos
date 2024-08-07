@@ -107,7 +107,7 @@ footer {
 }
 
 /* Adicionar animação pulse ao item do menu "Inscreva-se Já" */
-.nav-link.shake {
+.nav-link.pulse {
     animation: pulse 1s infinite; /* Aplica a animação pulse */
     color: #ff0000 !important; /* Cor para chamar atenção */
     font-weight: bold; /* Negrito para maior destaque */
@@ -142,7 +142,7 @@ footer {
         display: flex; /* Mostra o botão em telas pequenas */
     }
     /* Desativar animação em telas pequenas */
-    .nav-link.shake {
+    .nav-link.pulse {
         animation: none; /* Remove a animação */
     }
 }

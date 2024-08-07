@@ -8,7 +8,6 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="70">
@@ -23,24 +22,25 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
 
-
-
                 <li class="nav-item">
                     <a class="nav-link" href="#home">Home</a>
                 </li>
+
                 <li class="nav-item">
                     <a class="nav-link" href="#about">O evento</a>
                 </li>
+
                 <li class="nav-item">
                     <a class="nav-link" href="#programacao">Programação</a>
                 </li>
+
                 <li class="nav-item">
                     <a class="nav-link" href="#speakers">Palestrantes</a>
                 </li>
+
                 <li class="nav-item">
                     <a class="nav-link" href="#sponsors">Patrocinadores</a>
                 </li>
-
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -53,8 +53,9 @@
                         <a class="dropdown-item" href="#versoes">Versões Anteriores</a>
                     </div>
                 </li>
+
                 <li class="nav-item">
-                    <a class="nav-link shake" href="#" target="_blank">Inscreva-se Já!</a>
+                    <a class="nav-link pulse" href="#" target="_blank">Inscreva-se Já!</a>
                 </li>
 
             </ul>
@@ -209,28 +210,31 @@
             <h2>Apoio</h2>
             <div class="row">
                 <div class="col-md-3 col-6">
-                    <img src="./imgs/logo-corecon.png" class="img-fluid" alt="Patrocinador 1">
+                    <img src="./imgs/marcas/corecon.png" class="img-fluid" alt="Marca corecon">
                 </div>
                 <!-- Repetir -->
             </div>
             <h2>Realização</h2>
             <div class="row">
                 <div class="col-md-3 col-6">
-                    <img src="./imgs/logo-sei.png" class="img-fluid" alt="Patrocinador 1">
+                    <img src="./imgs/marcas/ufba-economia.png" class="img-fluid" alt="Marca UFBa">
+                    <img src="./imgs/marcas/sei.png" class="img-fluid" alt="Marca SEI">
+                    <img src="./imgs/marcas/estado.png" class="img-fluid" alt="Marca SEI">
                 </div>
                 <!-- Repetir -->
             </div>
         </div>
     </section>
 
+    <!-- Botão de Inscrição -->
+    <a href="https://paginaexterna.com" class="floating-button" id="floatingButton" target="_blank">
+        <i class="fas fa-pencil-alt"></i>
+    </a>
+
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2024 Evento. Todos os direitos reservados. Local e Horário</p>
     </footer>
-
-    <a href="https://paginaexterna.com" class="floating-button" id="floatingButton" target="_blank">
-        <i class="fas fa-pencil-alt"></i>
-    </a>
 
     <!-- Modal de Galeria -->
     <div class="modal fade" id="galleryModal" tabindex="-1" role="dialog" aria-labelledby="galleryModalLabel"
@@ -286,7 +290,7 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="downloadModalLabel">Documentos para Download</h5>
+                    <h5 class="modal-title" id="downloadModalLabel">Download das Apresentações</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -306,22 +310,20 @@
         </div>
     </div>
 
-    <!-- Modal de Download -->
+    <!-- Modal de Versões Anteriores -->
     <div class="modal fade" id="previousVersionsModal" tabindex="-1" role="dialog" aria-labelledby="downloadModalLabel"
         aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-dialog modal-dialog-centered" role="dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="downloadModalLabel">Documentos para Download</h5>
+                    <h5 class="modal-title" id="downloadModalLabel">Versões Anteriores</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
                     <ul>
-                        <li><a href="documento1.pdf" download>Documento 1</a></li>
-                        <li><a href="documento2.pdf" download>Documento 2</a></li>
-                        <li><a href="documento3.pdf" download>Documento 3</a></li>
+                        <li><a href="../2023/index.php" target="_blank">2023</a></li>
                         <!-- Adicione mais itens conforme necessário -->
                     </ul>
                 </div>
