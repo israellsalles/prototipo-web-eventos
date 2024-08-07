@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento 2024</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="70">
+
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Evento 2024</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">O evento</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#programacao">Programação</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#speakers">Palestrantes</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#sponsors">Patrocinadores</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Ver mais
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#download">Download</a>
+                        <a class="dropdown-item" href="#gallery">Galeria</a>
+                        <a class="dropdown-item" href="#versoes">Versões Anteriores</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link pulse" href="#" target="_blank">Inscreva-se Já!</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sessão Home -->
+    <section id="home" class="d-flex justify-content-center align-items-center text-center hero">
+        <div class="container">
+            <!-- SVG Animation -->
+            <img src="./imgs/banner.png" alt="Imagem Responsiva" class="img-fluid">
+        </div>
+    </section>
+
+    <!-- Sessão Sobre -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2>O evento</h2>
+            <p>Detalhes sobre o evento, local, data e horário.</p>
+        </div>
+    </section>
+
+    <!-- Sessão de Programação -->
+    <section id="programacao" class="py-5 bg-light">
+        <div class="container">
+            <h2>Programação</h2>
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" id="programacaoTabs" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="dia1-tab" data-toggle="tab" href="#dia1" role="tab"
+                        aria-controls="dia1" aria-selected="true">28/09</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="dia2-tab" data-toggle="tab" href="#dia2" role="tab" aria-controls="dia2"
+                        aria-selected="false">29/09</a>
+                </li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content" id="programacaoContent">
+                <div class="tab-pane fade show active" id="dia1" role="tabpanel" aria-labelledby="dia1-tab">
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>HORÁRIO</th>
+                                    <th>TEMA</th>
+                                    <th>PALESTRANTE</th>
+                                    <th>ÁREA DE APLICAÇÃO</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td >08:00</td>
+                                    <td colspan="4">Credenciamento</td>
+                                </tr>
+                                <tr>
+                                    <td>08:30</td>
+                                    <td>Abertura e Boas-vindas</td>
+                                    <td>Representantes SEI/UFBA</td>
+                                </tr>
+                                <tr>
+                                    <td>08:30</td>
+                                    <td>Abertura e Boas-vindas</td>
+                                    <td>Representantes SEI/UFBA</td>
+                                </tr>
+                                <!-- Adicione mais linhas conforme necessário -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="dia2" role="tabpanel" aria-labelledby="dia2-tab">
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Horário</th>
+                                    <th>Tema</th>
+                                    <th>Palestrante</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>09:00 - 10:00</td>
+                                    <td>Palestra X</td>
+                                    <td>Maria Oliveira</td>
+                                </tr>
+                                <tr>
+                                    <td>10:15 - 11:15</td>
+                                    <td>Palestra Y</td>
+                                    <td>João Santos</td>
+                                </tr>
+                                <tr>
+                                    <td>11:30 - 12:30</td>
+                                    <td>Palestra Z</td>
+                                    <td>Ana Costa</td>
+                                </tr>
+                                <!-- Adicione mais linhas conforme necessário -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Palestrantes -->
+    <section id="speakers" class="py-5">
+        <div class="container">
+            <h2>Palestrantes</h2>
+            <div class="row">
+
+                <!-- Card palestrante 1 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./imgs/palestrantes/paulo-guimaraes.png" class="card-img-top" alt="Palestrante">
+                        <div class="card-body">
+                            <h5 class="card-title">Paulo Roberto Britto Guimarães</h5>
+                            <p class="card-text">Possui graduação em Engenharia Química pela Universidade Federal da
+                                Bahia (UFBA, 1982), mestrado em Engenharia Química pela Universidade Estadual de
+                                Campinas (1991) e doutorado em Engenharia Química – University of Leeds, Inglaterra
+                                (1995)</p>
+                            <!-- Button to open modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#speakerModal1">Leia mais</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal palestrante 1 -->
+                <div class="modal fade" id="speakerModal1" tabindex="-1" role="dialog"
+                    aria-labelledby="speakerModalLabel1" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="speakerModalLabel1">Paulo Roberto Britto Guimarães</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Atualmente, é superintendente de Atração de Investimentos e Fomento ao Desenvolvimento
+                                Econômico
+                                (SUAD) do Estado da Bahia.Possui graduação em Engenharia Química pela Universidade
+                                Federal da Bahia
+                                (UFBA, 1982), mestrado em Engenharia Química pela Universidade Estadual de Campinas
+                                (1991) e
+                                doutorado em Engenharia Química – University of Leeds, Inglaterra (1995). Atualmente, é
+                                superintendente de Atração de Investimentos e Fomento ao Desenvolvimento Econômico
+                                (SUAD) do Estado
+                                da Bahia.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card palestrante 2 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./imgs/palestrantes/roberto.png" class="card-img-top" alt="Palestrante">
+                        <div class="card-body">
+                            <h5 class="card-title">Roberto Antônio Fortuna Carneiro</h5>
+                            <p class="card-text">Possui graduação em Geografia pela Universidade Católica do Salvador
+                                (UCSal, 1986) e mestrado em Administração pela UFBA (1993).</p>
+                            <!-- Button to open modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#speakerModal2">Leia mais</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal palestrante 2 -->
+                <div class="modal fade" id="speakerModal2" tabindex="-1" role="dialog"
+                    aria-labelledby="speakerModalLabel1" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="speakerModalLabel1">Roberto Antônio Fortuna Carneiro</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                É doutorando pelo Programa de Pós-Graduação em Ciências Aplicadas a Energia e Ambiente
+                                (PGENAM/UFBA). Atualmente é Secretário Executivo da Comissão Especial para Implantação
+                                de uma
+                                Economia de Hidrogênio Verde na Bahia (SEMA) do Estado da Bahia e professor do Programa
+                                de
+                                Pós-graduação da Faculdade Visconde de Cairu.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card palestrante 3 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./imgs/palestrantes/victor.png" class="card-img-top" alt="Palestrante">
+                        <div class="card-body">
+                            <h5 class="card-title">Victor Menezes Vieira</h5>
+                            <p class="card-text">Doutor e Mestre em Geologia Ambiental, Recursos Hídricos e
+                                Hidrogeologia pela Universidade Federal da Bahia e Engenheiro Ambiental pela Faculdade
+                                de Tecnologia e Ciências de Salvador.</p>
+                            <!-- Button to open modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#speakerModal3">Leia mais</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal palestrante 3 -->
+                <div class="modal fade" id="speakerModal3" tabindex="-1" role="dialog"
+                    aria-labelledby="speakerModalLabel1" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="speakerModalLabel1">Victor Menezes Vieira</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Tem experiência na área de Energia (Petróleo, Gás e Renováveis). Foi coordenador de
+                                câmara no Painel Salvador de Mudança do Clima. Foi coordenador do mestrado em energia da
+                                Unifacs. Atualmente é especialista em descarbonização pelo SENAI CIMATEC.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card palestrante 4 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./imgs/palestrantes/fernanda.png" class="card-img-top" alt="Palestrante">
+                        <div class="card-body">
+                            <h5 class="card-title">Fernanda Caires</h5>
+                            <p class="card-text">Doutora em Economia pela UFBA, mestre em Economia Regional e Políticas
+                                Públicas pela Universidade Estadual de Santa Cruz (UESC) e graduada em Ciências
+                                Econômicas pela Universidade Estadual do Sudoeste da Bahia (UESB).</p>
+                            <!-- Button to open modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#speakerModal4">Leia mais</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal palestrante 4 -->
+                <div class="modal fade" id="speakerModal4" tabindex="-1" role="dialog"
+                    aria-labelledby="speakerModalLabel1" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="speakerModalLabel1">Fernanda Caires</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Possui experiência como docente em cursos de nível técnico e superior. Trabalhou na
+                                elaboração de projetos para captação de recursos e de estudos de viabilidade
+                                econômico-financeira. Atualmente se dedica à pesquisa sobre economia regional e urbana e
+                                conduz avaliações de impacto. No FGV/EESP, atua como pesquisadora no CLEAR e no C-Micro.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card palestrante 5 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./imgs/palestrantes/paulo.png" class="card-img-top" alt="Palestrante">
+                        <div class="card-body">
+                            <h5 class="card-title">Paulo Jerônimo</h5>
+                            <p class="card-text">Doutorando em Economia, mestre em Economia e graduado em Ciências
+                                Econômicas pela UFBA.</p>
+                            <!-- Button to open modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#speakerModal5">Leia mais</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal palestrante 5 -->
+                <div class="modal fade" id="speakerModal5" tabindex="-1" role="dialog"
+                    aria-labelledby="speakerModalLabel1" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="speakerModalLabel1">Paulo Jerônimo</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Atualmente é professor substituto do Departamento de Economia da UFBA e atua com
+                                pesquisas nas áreas Economia, Social e Avaliação de Políticas Públicas.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card palestrante 6 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./imgs/palestrantes/egla.png" class="card-img-top" alt="Palestrante">
+                        <div class="card-body">
+                            <h5 class="card-title">Egla Ray Costa</h5>
+                            <p class="card-text">Economista e mestre em Economia pela UFBA, na área de Desenvolvimento
+                                Econômico.</p>
+                            <!-- Button to open modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#speakerModal6">Leia mais</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal palestrante 6 -->
+                <div class="modal fade" id="speakerModal6" tabindex="-1" role="dialog"
+                    aria-labelledby="speakerModalLabel1" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="speakerModalLabel1">Egla Ray Costa</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Tem como áreas de pesquisa desenvolvimento e políticas públicas sociais, atuando em
+                                monitoramento e avaliação de políticas públicas desde 2012. É coordenadora de
+                                Monitoramento e Avaliação do Projeto de Desenvolvimento Rural e Sustentável da Bahia
+                                (Bahia Produtiva). Trabalha na concepção e implementação da Avaliação de Impacto do
+                                Projeto.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card palestrante 7 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./imgs/palestrantes/creomar.png" class="card-img-top" alt="Palestrante">
+                        <div class="card-body">
+                            <h5 class="card-title">Creomar Baptista</h5>
+                            <p class="card-text">Graduado em Ciências Econômicas pela Universidade Federal de Juiz de
+                                Fora (1994), mestre em Economia pela UFBA, com especialização em Políticas Públicas e
+                                Gestão Governamental pelo CEPEV/Visconde de Cairu e MBA em Parcerias Público-Privadas e
+                                Concessões pela Escola de Humanidades/FESP-SP.</p>
+                            <!-- Button to open modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#speakerModal7">Leia mais</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal palestrante 7 -->
+                <div class="modal fade" id="speakerModal7" tabindex="-1" role="dialog"
+                    aria-labelledby="speakerModalLabel1" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="speakerModalLabel1">Creomar Baptista</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Atua como Especialista em Políticas Públicas e Gestão Governamental (EPGG) na Secretaria
+                                de Infraestrutura do Estado da Bahia (Seinfra).
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card palestrante 8 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./imgs/palestrantes/marta.png" class="card-img-top" alt="Palestrante">
+                        <div class="card-body">
+                            <h5 class="card-title">Marta Cristiane Timóteo Rossi</h5>
+                            <p class="card-text">Possui graduação em Ciências Econômicas pela UFBA e graduação em
+                                Administração de Empresas pela Universidade do Estado da Bahia (Uneb). Mestre em
+                                Economia pela UFBA e doutora em Economia pela Universidade Federal de Minas Gerais
+                                (CEPLAR/UFMG).</p>
+                            <!-- Button to open modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#speakerModal8">Leia mais</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal palestrante 8 -->
+                <div class="modal fade" id="speakerModal8" tabindex="-1" role="dialog"
+                    aria-labelledby="speakerModalLabel1" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="speakerModalLabel1">Marta Cristiane Timóteo Rossi</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Tem experiência na área de Economia Internacional, Organização Industrial,
+                                Microeconometria, Tributação Ótima e Equilíbrio Recursivo Computável.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card palestrante 9 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./imgs/palestrantes/marcelo.png" class="card-img-top" alt="Palestrante">
+                        <div class="card-body">
+                            <h5 class="card-title">Marcelo Taddeo</h5>
+                            <p class="card-text">Bacharel em Matemática Pura, mestre em Matemática Aplicada e Doutor em
+                                Estatística pelo Instituto de Matemática e Estatística na Universidade de São Paulo
+                                (IME-USP).</p>
+                            <!-- Button to open modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#speakerModal9">Leia mais</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal palestrante 9 -->
+                <div class="modal fade" id="speakerModal9" tabindex="-1" role="dialog"
+                    aria-labelledby="speakerModalLabel1" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="speakerModalLabel1">Marcelo Taddeo</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Atualmente é professor do departamento de Estatística da Universidade Federal da Bahia.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card palestrante 10 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./imgs/palestrantes/vinicius.png" class="card-img-top" alt="Palestrante">
+                        <div class="card-body">
+                            <h5 class="card-title">Vinícius Mendes</h5>
+                            <p class="card-text">Doutor em Teoria Econômica pela Universidade de São Paulo, FEA-USP.</p>
+                            <!-- Button to open modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#speakerModal10">Leia mais</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal palestrante 10 -->
+                <div class="modal fade" id="speakerModal10" tabindex="-1" role="dialog"
+                    aria-labelledby="speakerModalLabel1" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="speakerModalLabel1">Vinícius Mendes</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Professor Adjunto do Departamento de Economia da Universidade Federal da Bahia,
+                                colaborador do Programa Integrado de Economia, Tecnologia e Inovação em Saúde do
+                                ISC-UFBa. Pesquisador em Microeconomia Aplicada, Demografia Econômica e Economia da
+                                Saúde, com foco em Avaliação de Políticas Públicas.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card palestrante 11 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./imgs/palestrantes/luiz.png" class="card-img-top" alt="Palestrante">
+                        <div class="card-body">
+                            <h5 class="card-title">Luiz Carlos de Araújo Junior</h5>
+                            <p class="card-text">Possui formação voltada para Sustentabilidade, com graduação em
+                                Ciências Biológicas pela Universidade Federal da Bahia (2010), Gestor Ambiental
+                                Industrial pelo SENAI/CETIND (2011) e pós-graduação em Avaliação de Impactos Ambientais
+                                e Recuperação de Áreas Degradadas pela UNIFACS (2013). </p>
+                            <!-- Button to open modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#speakerModal11">Leia mais</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal palestrante 11 -->
+                <div class="modal fade" id="speakerModal11" tabindex="-1" role="dialog"
+                    aria-labelledby="speakerModalLabel1" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="speakerModalLabel1">Luiz Carlos de Araújo Junior</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Possui formação na área de Gestão, Planejamento e Políticas Públicas Ambientais. Mestre
+                                em Meio Ambiente, Águas e Saneamento pela Universidade Federal da Bahia (2015).
+                                Trabalhou como Coordenador de Licenciamento Ambiental da Prefeitura Municipal de Lauro
+                                de Freitas (BA). Ministra cursos na área de Legislação e Gestão Ambiental, assessora
+                                estratégias públicas e empresariais voltadas à área ambiental e é servidor público de
+                                carreira na Secretaria Estadual do Meio Ambiente (Sema). Foi Diretor de Programas e
+                                Projetos da Sema e atualmente é Coordenador Executivo na Coordenação de Ações
+                                Estratégicas, tendo entre suas atividades a coordenação do Programa Bahia +Verde.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fim dos Cards/Model dos Palestrantes -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Sessão dos Patrocinadores -->
+    <section id="sponsors" class="py-5 bg-light">
+        <div class="container">
+            <h2>Apoio</h2>
+            <div class="row">
+                <div class="col-md-3 col-6">
+                    <img src="./imgs/marcas/corecon.png" class="img-fluid" alt="Marca corecon">
+                </div>
+                <!-- Repetir -->
+            </div>
+            <h2>Realização</h2>
+            <div class="row">
+                <div class="col-md-3 col-6">
+                    <img src="./imgs/marcas/ufba-economia.png" class="img-fluid" alt="Marca UFBa">
+                    <img src="./imgs/marcas/sei.png" class="img-fluid" alt="Marca SEI">
+                    <img src="./imgs/marcas/estado.png" class="img-fluid" alt="Marca SEI">
+                </div>
+                <!-- Repetir -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Botão de Inscrição -->
+    <a href="https://paginaexterna.com" class="floating-button" id="floatingButton" target="_blank">
+        <i class="fas fa-pencil-alt"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Evento. Todos os direitos reservados. Local e Horário</p>
+    </footer>
+
+    <!-- Modal de Galeria -->
+    <div class="modal fade" id="galleryModal" tabindex="-1" role="dialog" aria-labelledby="galleryModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="galleryModalLabel">Galeria de Imagens</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <div id="carouselGalleryIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselGalleryIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselGalleryIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselGalleryIndicators" data-slide-to="2"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imagem1.jpg" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagem2.jpg" class="d-block w-100" alt="Imagem 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagem3.jpg" class="d-block w-100" alt="Imagem 3">
+                            </div>
+                        </div>
+
+                        <a class="carousel-control-prev" href="#carouselGalleryIndicators" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselGalleryIndicators" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Download -->
+    <div class="modal fade" id="downloadModal" tabindex="-1" role="dialog" aria-labelledby="downloadModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="downloadModalLabel">Download das Apresentações</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li><a href="documento1.pdf" download>Documento 1</a></li>
+                        <li><a href="documento2.pdf" download>Documento 2</a></li>
+                        <li><a href="documento3.pdf" download>Documento 3</a></li>
+                        <!-- Adicione mais itens conforme necessário -->
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Versões Anteriores -->
+    <div class="modal fade" id="previousVersionsModal" tabindex="-1" role="dialog" aria-labelledby="downloadModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="downloadModalLabel">Versões Anteriores</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li><a href="../2023/index.php" target="_blank">2023</a></li>
+                        <!-- Adicione mais itens conforme necessário -->
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
