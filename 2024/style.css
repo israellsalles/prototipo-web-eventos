@@ -52,7 +52,13 @@ footer {
     padding: 20px;
 }
 
+section {
+    scroll-margin-top: 10px; /* Adiciona margem para a rolagem suave */
+}
 
+.modal-body p::first-letter {
+    font-size: 1.5em;
+  }
 
 
 /* Define the background color with transparency */
