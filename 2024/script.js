@@ -37,7 +37,7 @@ $(document).ready(function () {
         });
 
     // Activate scrollspy
-    $('body').scrollspy({ target: '.navbar', offset: 70 });
+    $('body').scrollspy({ target: '.navbar', offset: 100 });
 
     // Prevent scrolling when clicking on tab links
     $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {

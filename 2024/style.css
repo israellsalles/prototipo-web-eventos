@@ -191,8 +191,7 @@ footer {
     object-fit: cover;
 }
 
-
-/* Exibir botão apenas em telas pequenas */
+/* Exibir apenas em telas pequenas */
 @media (max-width: 767px) {
     .floating-button {
         display: flex;
@@ -207,15 +206,5 @@ footer {
 
     section {
         scroll-margin-top: 46px;
-    }
-
-    #home {
-        background-image: url(./imgs/fundo-banner-mobile.png);
-        background-repeat: no-repeat;
-        margin-top: 86px;
-    }
-
-    section #home {
-        scroll-margin-top: 86px;
     }
 }
