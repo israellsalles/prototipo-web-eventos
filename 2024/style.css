@@ -7,18 +7,21 @@ html {
     scroll-behavior: smooth;
 }
 
-section{
+section {
     scroll-margin-top: 10px;
 }
-#home{
+
+#home {
     margin-top: 56px;
+    background-image: url(./imgs/fundo-banner.png);
 }
-#home .container{
+
+#home .container {
     padding: 0;
 }
 
 .hero {
-/*     height: 100vh; */
+    /*     height: 100vh; */
     background: #fff;
     color: white;
     display: flex;
@@ -32,7 +35,6 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(./imgs/fundo-banner.png);
 }
 
 .hero img {
@@ -193,7 +195,8 @@ footer {
         animation: none;
         /* Remove a animação */
     }
-    #home{
+
+    #home {
         margin-top: 96px;
     }
 }
