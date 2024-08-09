@@ -124,14 +124,9 @@ footer {
     border: none;
     border-radius: 50%;
     width: 40px;
-    /* Reduzido de 60px */
     height: 40px;
-    /* Reduzido de 60px */
-    /* Usando flexbox */
     align-items: center;
-    /* Centraliza verticalmente */
     justify-content: center;
-    /* Centraliza horizontalmente */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     z-index: 1000;
     text-decoration: none;
@@ -139,6 +134,12 @@ footer {
     display: none;
 }
 
+/* Botão de Compartilhamento pelo WhatsApp */
+#whatsappButton {
+    background-color: #25D366;
+}
+
+/* Botão de Inscrição */
 #botao-inscricao {
     animation: pulse 1s infinite;
     /* Aplica a animação */
@@ -149,28 +150,9 @@ footer {
     /* Cor do ícone */
 }
 
-/* Botão de Compartilhamento pelo WhatsApp */
-#whatsappButton {
-    position: fixed;
-    bottom: 20px;
-    /* Posiciona o botão acima do botão existente */
-    right: 20px;
-    background-color: #25D366;
-    /* Cor verde do WhatsApp */
-    color: white;
-    border: none;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    /* Exibe o botão em todas as resoluções */
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-    z-index: 1001;
-    /* Z-index acima do botão existente */
-    text-decoration: none;
-    font-size: 18px;
-}
+
+
+
 
 
 
@@ -237,7 +219,8 @@ footer {
 }
 
 .social-icon:hover {
-    color: #007bff; /* Cor ao passar o mouse */
+    color: #007bff;
+    /* Cor ao passar o mouse */
 }
 
 
@@ -260,17 +243,20 @@ footer {
 /* Estilos para resoluções maiores que celular */
 @media (min-width: 768px) {
     #botao-inscricao {
-        display: none !important; /* Oculta o botão flutuante de inscrição em resoluções maiores */
+        display: none !important;
+        /* Oculta o botão flutuante de inscrição em resoluções maiores */
     }
 
     #whatsappButton {
-        display: flex; /* Exibe o botão flutuante do WhatsApp em resoluções maiores */
+        display: flex;
+        /* Exibe o botão flutuante do WhatsApp em resoluções maiores */
     }
 }
 
 
 /* Exibir apenas em telas pequenas */
 @media (max-width: 767px) {
+
     /* Desativar animação em telas pequenas */
     .nav-link.pulse {
         animation: none;
@@ -281,12 +267,13 @@ footer {
         scroll-margin-top: 46px;
     }
 
-    #botao-inscricao{
-        display: flex; /* Exibe o botão flutuante de inscrição em resoluções menores */
+    #botao-inscricao {
+        display: flex;
+        /* Exibe o botão flutuante de inscrição em resoluções menores */
     }
 
     #whatsappButton {
-        display: flex; 
+        display: flex;
         bottom: 70px;
         /* Posiciona o botão acima do botão existente */
     }
