@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
     // Smooth scrolling
     $('a.nav-link').on('click', function (event) {
         if (this.hash !== "" && !$(this).attr('data-toggle')) {
@@ -16,8 +17,6 @@ $(document).ready(function () {
             }
         }
     });
-
-   
 
     // Show modal when clicking on the "Download" menu item
     $('a[href="#download"]').on('click', function(event) {
