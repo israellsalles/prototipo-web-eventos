@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -29,7 +30,10 @@ body, html {
     background-image: url(./imgs/fundo-banner.png);
 }
 
-#about, #programacao, #speakers, #sponsors {
+#about,
+#programacao,
+#speakers,
+#sponsors {
     padding: 60px 0;
 }
 
@@ -52,24 +56,24 @@ footer {
     padding: 20px;
 }
 
-section {
-    scroll-margin-top: 10px; /* Adiciona margem para a rolagem suave */
-}
-
 .modal-body p::first-letter {
     font-size: 1.5em;
-  }
+}
 
 
 /* Define the background color with transparency */
 .navbar {
-    background-color: rgba(0, 0, 0, 0.9) !important; /* Preto com 80% de opacidade */
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    /* Preto com 80% de opacidade */
 }
 
 @keyframes fadeBlink {
-    0%, 100% {
+
+    0%,
+    100% {
         opacity: 1;
     }
+
     50% {
         opacity: 0;
     }
@@ -80,9 +84,11 @@ section {
     0% {
         transform: scale(1);
     }
+
     50% {
         transform: scale(1.1);
     }
+
     100% {
         transform: scale(1);
     }
@@ -96,27 +102,38 @@ section {
     color: white;
     border: none;
     border-radius: 50%;
-    width: 40px; /* Reduzido de 60px */
-    height: 40px; /* Reduzido de 60px */
-    display: none; /* Usando flexbox */
-    align-items: center; /* Centraliza verticalmente */
-    justify-content: center; /* Centraliza horizontalmente */
+    width: 40px;
+    /* Reduzido de 60px */
+    height: 40px;
+    /* Reduzido de 60px */
+    display: none;
+    /* Usando flexbox */
+    align-items: center;
+    /* Centraliza verticalmente */
+    justify-content: center;
+    /* Centraliza horizontalmente */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     z-index: 1000;
     text-decoration: none;
-    font-size: 18px; /* Reduzido de 24px */
-    animation: pulse 1s infinite; /* Aplica a animação */
+    font-size: 18px;
+    /* Reduzido de 24px */
+    animation: pulse 1s infinite;
+    /* Aplica a animação */
 }
 
 .floating-button i {
-    color: white; /* Cor do ícone */
+    color: white;
+    /* Cor do ícone */
 }
 
 /* Adicionar animação pulse ao item do menu "Inscreva-se Já" */
 .nav-link.pulse {
-    animation: pulse 1s infinite; /* Aplica a animação pulse */
-    color: #ff0000 !important; /* Cor para chamar atenção */
-    font-weight: bold; /* Negrito para maior destaque */
+    animation: pulse 1s infinite;
+    /* Aplica a animação pulse */
+    color: #ff0000 !important;
+    /* Cor para chamar atenção */
+    font-weight: bold;
+    /* Negrito para maior destaque */
 }
 
 /* Estilos adicionais para o modal de download */
@@ -139,19 +156,28 @@ section {
 }
 
 .navbar-nav .nav-link.active {
-    font-weight: bold; /* Negrito para itens destacados */
+    font-weight: bold;
+    /* Negrito para itens destacados */
+}
+
+section{
+    scroll-margin-top: var(--navbar-height, 56px);
 }
 
 /* Exibir botão apenas em telas pequenas */
 @media (max-width: 767px) {
     .floating-button {
-        display: flex; /* Mostra o botão em telas pequenas */
+        display: flex;
+        /* Mostra o botão em telas pequenas */
     }
+
     /* Desativar animação em telas pequenas */
     .nav-link.pulse {
-        animation: none; /* Remove a animação */
+        animation: none;
+        /* Remove a animação */
     }
 }
+
 /* Estilos adicionais para o modal de galeria */
 .modal-body .carousel-item {
     height: 500px;
@@ -162,6 +188,6 @@ section {
     object-fit: cover;
 }
 
-#home{
+#home {
     margin-top: 50px;
 }
