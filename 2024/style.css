@@ -7,8 +7,17 @@ html {
     scroll-behavior: smooth;
 }
 
+section{
+    scroll-margin-top: var(--navbar-height, 56px);
+}
+
+
 #home .container{
     padding: 0;
+}
+
+#home{
+    margin-top: var(--navbar-height, 56px);
 }
 
 .hero {
@@ -26,12 +35,12 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url(./imgs/fundo-banner.png);
 }
 
 .hero img {
     max-width: 100%;
     height: auto;
-    background-image: url(./imgs/fundo-banner.png);
 }
 
 #about,
@@ -164,10 +173,6 @@ footer {
     /* Negrito para itens destacados */
 }
 
-section{
-    scroll-margin-top: var(--navbar-height, 56px);
-}
-
 /* Exibir botão apenas em telas pequenas */
 @media (max-width: 767px) {
     .floating-button {
@@ -190,8 +195,4 @@ section{
 .modal-body .carousel-item img {
     height: 100%;
     object-fit: cover;
-}
-
-#home {
-    margin-top: 50px;
 }
