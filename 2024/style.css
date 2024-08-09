@@ -10,7 +10,9 @@ html {
 section{
     scroll-margin-top: 56px;
 }
-
+#home{
+    margin-top: 96px;
+}
 #home .container{
     padding: 0;
 }
@@ -168,6 +170,17 @@ footer {
     /* Negrito para itens destacados */
 }
 
+/* Estilos adicionais para o modal de galeria */
+.modal-body .carousel-item {
+    height: 500px;
+}
+
+.modal-body .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+
 /* Exibir botão apenas em telas pequenas */
 @media (max-width: 767px) {
     .floating-button {
@@ -180,14 +193,7 @@ footer {
         animation: none;
         /* Remove a animação */
     }
-}
-
-/* Estilos adicionais para o modal de galeria */
-.modal-body .carousel-item {
-    height: 500px;
-}
-
-.modal-body .carousel-item img {
-    height: 100%;
-    object-fit: cover;
+    #home{
+        margin-top: 96px;
+    }
 }
