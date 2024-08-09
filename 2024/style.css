@@ -6,8 +6,12 @@ body, html {
     scroll-behavior: smooth;
 }
 
+#home .container{
+    padding: 0;
+}
+
 .hero {
-    height: 100vh;
+/*     height: 100vh; */
     background: #fff;
     color: white;
     display: flex;
