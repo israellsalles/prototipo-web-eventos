@@ -147,6 +147,34 @@ footer {
     /* Cor do ícone */
 }
 
+/* Botão de Compartilhamento pelo WhatsApp */
+#whatsappButton {
+    position: fixed;
+    bottom: 70px; /* Posiciona o botão acima do botão existente */
+    right: 20px;
+    background-color: #25D366; /* Cor verde do WhatsApp */
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: none; /* Inicialmente oculto */
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1001; /* Z-index acima do botão existente */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Exibir apenas em telas pequenas */
+@media (max-width: 767px) {
+    #whatsappButton {
+        display: flex; /* Mostra o botão em telas pequenas */
+    }
+}
+
+
 /* Adicionar animação pulse ao item do menu "Inscreva-se Já" */
 .nav-link.pulse {
     animation: pulse 1s infinite;
@@ -190,6 +218,34 @@ footer {
     height: 100%;
     object-fit: cover;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Exibir apenas em telas pequenas */
 @media (max-width: 767px) {

@@ -34,10 +34,8 @@
     <!-- Modal de Versões Anteriores -->
     <?php include('./snippets/modal-versoes.html'); ?>
 
-    <!-- Botão de Inscrição no rodapé para smartphone. -->
-    <a href="https://paginaexterna.com" class="floating-button" id="floatingButton" target="_blank">
-        <i class="fas fa-pencil-alt"></i>
-    </a>
+    <!-- Modal de Versões Anteriores -->
+    <?php include('./snippets/float-botton.html'); ?>
 
     <!-- Footer -->
     <?php include('./snippets/footer.html'); ?>
