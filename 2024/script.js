@@ -48,4 +48,19 @@ $(document).ready(function () {
             window.location.hash = '';
         }
     });
+
+      // Mostrar botões flutuantes ao rolar para o fim da página
+      $(window).on('scroll', function () {
+        var scrollPosition = $(window).scrollTop() + $(window).height();
+        var documentHeight = $(document).height();
+
+        if (scrollPosition >= documentHeight - 100) { // 100px antes do fim da página
+            $('#botao-inscricao').fadeIn();
+            $('#whatsappButton').fadeIn();
+        } else {
+            $('#botao-inscricao').fadeOut();
+            $('#whatsappButton').fadeOut();
+        }
+    });
+    
 });

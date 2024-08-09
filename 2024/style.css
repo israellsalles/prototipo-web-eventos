@@ -127,7 +127,6 @@ footer {
     /* Reduzido de 60px */
     height: 40px;
     /* Reduzido de 60px */
-    display: none;
     /* Usando flexbox */
     align-items: center;
     /* Centraliza verticalmente */
@@ -137,6 +136,7 @@ footer {
     z-index: 1000;
     text-decoration: none;
     font-size: 18px;
+    display: none;
 }
 
 #botao-inscricao {
@@ -162,7 +162,6 @@ footer {
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    display: flex;
     /* Exibe o botão em todas as resoluções */
     align-items: center;
     justify-content: center;
@@ -258,19 +257,20 @@ footer {
 
 
 
+/* Estilos para resoluções maiores que celular */
+@media (min-width: 768px) {
+    #botao-inscricao {
+        display: none !important; /* Oculta o botão flutuante de inscrição em resoluções maiores */
+    }
 
-
-
-
+    #whatsappButton {
+        display: flex; /* Exibe o botão flutuante do WhatsApp em resoluções maiores */
+    }
+}
 
 
 /* Exibir apenas em telas pequenas */
 @media (max-width: 767px) {
-    .floating-button {
-        display: flex;
-        /* Mostra o botão em telas pequenas */
-    }
-
     /* Desativar animação em telas pequenas */
     .nav-link.pulse {
         animation: none;
@@ -281,7 +281,12 @@ footer {
         scroll-margin-top: 46px;
     }
 
+    #botao-inscricao{
+        display: flex; /* Exibe o botão flutuante de inscrição em resoluções menores */
+    }
+
     #whatsappButton {
+        display: flex; 
         bottom: 70px;
         /* Posiciona o botão acima do botão existente */
     }
