@@ -41,9 +41,3 @@ section {
         transform: scale(1);
     }
 }
-
-@media (min-width: 767px) {
-    #botao-inscricao {
-        display: none;
-    }
-}

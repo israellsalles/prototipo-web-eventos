@@ -62,7 +62,6 @@ $(document).ready(function () {
       scrollPosition <= 100 ||
       scrollPosition + windowHeight >= documentHeight - 100
     ) {
-      // 100px antes do fim da página
       $("#botao-inscricao").fadeIn();
       $("#botao-compartilhar").fadeIn();
     } else {

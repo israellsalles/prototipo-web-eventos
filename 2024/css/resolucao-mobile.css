@@ -4,10 +4,8 @@
         background-image: url(../imgs/fundo-banner-mobile.png);
     }
 
-    /* Desativar animação em telas pequenas */
     .nav-link.pulse {
         animation: none;
-        /* Remove a animação */
     }
 
     section {
@@ -18,13 +16,11 @@
         display: flex;
         animation: pulse 1s infinite;
         bottom: 70px;
-        bottom: 70px;
-        /* Exibe o botão flutuante de inscrição em resoluções menores */
+        color: white;
     }
 
     #botao-compartilhar {
         display: flex;
         bottom: 20px;
-        /* Posiciona o botão acima do botão existente */
     }
 }
