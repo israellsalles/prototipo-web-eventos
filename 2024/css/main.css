@@ -1,11 +1,9 @@
-/* Estilizar botoes flutuantes */
 @import url('../css/botao-flutuante.css');
 @import url('../css/cabecalho.css');
 @import url('../css/home.css');
 @import url('../css/rodape.css');
 @import url('../css/modal.css');
 @import url('../css/palestrante.css');
-/* Exibir apenas em telas pequenas */
 @import url('../css/resolucao-mobile.css');
 
 body,
