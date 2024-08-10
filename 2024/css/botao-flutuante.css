@@ -1,8 +1,5 @@
 .floating-button {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #007bff;
     border: none;
     border-radius: 50%;
     width: 40px;
@@ -11,12 +8,16 @@
     justify-content: center;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     z-index: 1000;
-    text-decoration: none;
+    text-decoration: none !important;
     font-size: 18px;
     display: none;
 }
 
+
 #botao-compartilhar {
+    bottom: 20px;
+    right: 20px;
     display: flex;
     color: white;
+    background-color: #25D366;
 }
