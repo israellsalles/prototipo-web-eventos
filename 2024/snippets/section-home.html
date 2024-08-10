@@ -1,23 +1,18 @@
 <section id="home" class="d-flex justify-content-center align-items-center text-center hero">
     <div class="container">
 
-<picture>
-    <!-- Imagem para dispositivos móveis -->
-    <source srcset="imagem-mobile.jpg" media="(max-width: 767px)">
-    
-    <!-- Imagem para tablets -->
-    <source srcset="imagem-tablet.jpg" media="(min-width: 768px) and (max-width: 1023px)">
+        <picture>
+            <!-- Imagem para dispositivos móveis -->
+            <source srcset="./imgs/banner-mobile.png" media="(max-width: 767px)">
 
-    <!-- Imagem para desktops -->
-    <source srcset="imagem-desktop.jpg" media="(min-width: 1024px)">
-    
-    <!-- Imagem de fallback, caso nenhum dos media queries seja atendido -->
-    <img src="imagem-padrao.jpg" alt="Descrição da imagem">
-</picture>
+            <!-- Imagem para tablets -->
+            <source srcset="./imgs/banner-tablet.png" media="(min-width: 768px) and (max-width: 1023px)">
 
-        <picture class="header-img">
-            <source media="(max-width:767px)" srcset="./imgs/banner-mobile.png">
-            <img src="./imgs/banner.png" alt="Imagem Responsiva" class="img-fluid">
+            <!-- Imagem para desktops -->
+            <source srcset="./imgs/banner.png" media="(min-width: 1024px)">
+
+            <!-- Imagem de fallback, caso nenhum dos media queries seja atendido -->
+            <img src="./imgs/banner.png" alt="Descrição da imagem">
         </picture>
     </div>
 </section>
