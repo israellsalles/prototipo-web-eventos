@@ -19,6 +19,12 @@ section {
     scroll-margin-top: 46px;
 }
 
+
+.table td, .table th {
+    vertical-align: middle !important;
+}
+
+
 #about,
 #programacao,
 #speakers,
