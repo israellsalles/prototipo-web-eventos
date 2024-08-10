@@ -1,0 +1,30 @@
+@media (max-width: 767px) {
+
+    #home {
+        background-image: url(../imgs/fundo-banner-mobile.png);
+    }
+
+    /* Desativar animação em telas pequenas */
+    .nav-link.pulse {
+        animation: none;
+        /* Remove a animação */
+    }
+
+    section {
+        scroll-margin-top: 46px;
+    }
+
+    #botao-inscricao {
+        animation: pulse 1s infinite;
+        bottom: 70px;
+        display: flex;
+        bottom: 70px;
+        /* Exibe o botão flutuante de inscrição em resoluções menores */
+    }
+
+    #botao-compartilhar {
+        display: flex;
+        bottom: 20px;
+        /* Posiciona o botão acima do botão existente */
+    }
+}

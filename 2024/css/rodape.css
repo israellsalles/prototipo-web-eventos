@@ -1,0 +1,32 @@
+/* Estilos para os ícones de redes sociais no rodapé */
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.social-icon {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #007bff;
+    /* Cor ao passar o mouse */
+}
+
+.sponsors img {
+    max-height: 100px;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
