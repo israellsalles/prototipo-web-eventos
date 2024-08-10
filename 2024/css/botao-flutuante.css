@@ -20,8 +20,3 @@
 #botao-compartilhar {
     display: flex;
 }
-
-.floating-button i {
-    color: white;
-    /* Cor do ícone */
-}

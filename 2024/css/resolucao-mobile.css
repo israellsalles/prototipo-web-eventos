@@ -15,9 +15,9 @@
     }
 
     #botao-inscricao {
+        display: flex;
         animation: pulse 1s infinite;
         bottom: 70px;
-        display: flex;
         bottom: 70px;
         /* Exibe o botão flutuante de inscrição em resoluções menores */
     }
