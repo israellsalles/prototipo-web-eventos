@@ -70,24 +70,4 @@ $(document).ready(function () {
     }
   });
 
-  // Lógica de compartilhamento
-  $("#botao-compartilhar").on("click", function (e) {
-    e.preventDefault();
-
-    if (navigator.share) {
-      navigator
-        .share({
-          title: document.title,
-          url: window.location.href,
-        })
-        .then(() => {
-          console.log("Link compartilhado com sucesso!");
-        })
-        .catch((error) => {
-          console.error("Erro ao compartilhar:", error);
-        });
-    } else {
-      alert("Desculpe, seu navegador não suporta o compartilhamento.");
-    }
-  });
 });
