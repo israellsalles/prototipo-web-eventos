@@ -32,5 +32,11 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     /* Estilos para tablets */
-    /* Configurar o container da sessão home para a imagem do fundo para tablet */
+    /* 
+
+#home {
+        background-image: url(../imgs/fundo-banner-mobile-tablet.png);
+    }
+
+ */
 }
