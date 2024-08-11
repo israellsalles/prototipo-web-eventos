@@ -40,7 +40,7 @@ $(document).ready(function () {
   });
 
   // Activate scrollspy
-  $("body").scrollspy({ target: ".navbar", offset: 100 });
+  $("body").scrollspy({ target: ".navbar", offset: 90 });
 
   // Prevent scrolling when clicking on tab links
   $('a[data-toggle="tab"]').on("shown.bs.tab", function (e) {
@@ -69,5 +69,6 @@ $(document).ready(function () {
       $("#botao-compartilhar").fadeOut();
     }
   });
+
 
 });
