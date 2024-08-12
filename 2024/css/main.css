@@ -24,13 +24,13 @@ html {
     vertical-align: middle !important;
 }
 
-
+/* 
  #about,
 #programacao,
 #speakers,
 #sponsors {
-    padding: 60px 0;
-} 
+    padding: 70px 0;
+}  */
 
 @keyframes pulse {
     0% {
