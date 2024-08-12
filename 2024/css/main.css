@@ -24,6 +24,11 @@ html {
     vertical-align: middle !important;
 }
 
+.py-custom{
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
 /* 
  #about,
 #programacao,
