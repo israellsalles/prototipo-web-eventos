@@ -15,10 +15,10 @@ html {
     scroll-behavior: smooth;
 }
 
-/* #botao-home{
+#botao-home{
    display: none;
 }
- */
+ 
 
 .table td, .table th {
     vertical-align: middle !important;
