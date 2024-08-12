@@ -1,17 +1,10 @@
-
-#home {
-    scroll-margin-top: 86px;
-}
-
 #home {
     background-image: url(../imgs/fundo-banner.png);
     background-repeat: no-repeat;
-    margin-top: 86px;
 }
 
 #home .container {
     padding: 0;
-    /*    margin-top: 56px; */
     margin-bottom: 25px;
 }
 

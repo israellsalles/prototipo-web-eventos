@@ -15,22 +15,22 @@ html {
     scroll-behavior: smooth;
 }
 
-section {
-    scroll-margin-top: 46px;
+/* #botao-home{
+   display: none;
 }
- 
+ */
 
 .table td, .table th {
     vertical-align: middle !important;
 }
 
 
-#about,
+ #about,
 #programacao,
 #speakers,
 #sponsors {
     padding: 60px 0;
-}
+} 
 
 @keyframes pulse {
     0% {
