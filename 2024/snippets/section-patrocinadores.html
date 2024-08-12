@@ -1,18 +1,24 @@
 <section id="sponsors" class="py-custom bg-light">
     <div class="container">
-        <h2>Apoio</h2>
-        <div class="row">
-            <div class="col-md-3 col-6">
-                <img src="./imgs/marcas/corecon.png" class="img-fluid" alt="Marca corecon">
+        <h2 class="h2-patrocinio">Apoio</h2>
+        <div class="row row-patrocinio">
+            <div class="patrocinio">
+                <img src="./imgs/marcas/corecon.png" alt="Marca corecon">
             </div>
             <!-- Repetir -->
         </div>
-        <h2>Realização</h2>
-        <div class="row">
-            <div class="col-md-3 col-6">
-                <img src="./imgs/marcas/ufba-economia.png" class="img-fluid" alt="Marca UFBa">
-                <img src="./imgs/marcas/sei.png" class="img-fluid" alt="Marca SEI">
-                <img src="./imgs/marcas/estado.png" class="img-fluid" alt="Marca SEI">
+        <h2 class="h2-patrocinio">Realização</h2>
+        <div class="row row-patrocinio">
+            <div class="patrocinio">
+                <img src="./imgs/marcas/ufba-economia.png" alt="Marca UFBa">
+                <picture>
+                    <!-- Imagem para dispositivos móveis -->
+                    <source srcset="./imgs/marcas/sei-mobile.png" media="(max-width: 767px)">
+                    <!-- Imagem para desktops -->
+                    <source srcset="./imgs/marcas/sei.png" media="(min-width: 1024px)">
+                    <!-- Imagem de fallback, caso nenhum dos media queries seja atendido -->
+                    <img src="./imgs/./imgs/marcas/sei.png" alt="Descrição da imagem">
+                </picture>
             </div>
             <!-- Repetir -->
         </div>

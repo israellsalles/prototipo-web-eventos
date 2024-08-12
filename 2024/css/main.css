@@ -5,6 +5,7 @@
 @import url('../css/modal.css');
 @import url('../css/palestrante.css');
 @import url('../css/resolucao-mobile.css');
+@import url('../css/patrocinio.css');
 
 body,
 html {
@@ -25,7 +26,7 @@ html {
 }
 
 .py-custom{
-    padding-top: 5rem;
+    padding-top: 4.5rem;
     padding-bottom: 2rem;
 }
 
