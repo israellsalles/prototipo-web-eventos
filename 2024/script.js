@@ -77,4 +77,12 @@ $(document).ready(function () {
       this.classList.toggle("collapsed");
     });
   });
+
+
+  // Collapse navbar when clicking on the brand link
+  $('a.navbar-brand').on('click', function () {
+    if ($(".navbar-collapse").hasClass("show")) {
+      $(".navbar-collapse").collapse("hide");
+    }
+  });
 });

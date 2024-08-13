@@ -1,14 +1,16 @@
 @media (max-width: 767px) {
 
     .navbar-toggler .navbar-toggler-icon {
-        background-image: url('data:image/svg+xml;charset=UTF8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="rgba%28255, 255, 255, 1%29" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M6 6L24 24M6 24L24 6"/%3E%3C/svg%3E'); /* X Icon */
+        background-image: url('data:image/svg+xml;charset=UTF8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="rgba%28255, 255, 255, 1%29" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M6 6L24 24M6 24L24 6"/%3E%3C/svg%3E');
+        /* X Icon */
         transition: transform 0.3s ease;
     }
-    
+
     .navbar-toggler.collapsed .navbar-toggler-icon {
-        background-image: url('data:image/svg+xml;charset=UTF8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="rgba%28255, 255, 255, 1%29" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E'); /* Hamburger Icon */
+        background-image: url('data:image/svg+xml;charset=UTF8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="rgba%28255, 255, 255, 1%29" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+        /* Hamburger Icon */
     }
-    
+
     #botao-home {
         display: inline !important;
     }
@@ -48,10 +50,14 @@
         display: flex;
         bottom: 20px;
     }
-    
-.p-left{
-    padding-left: 1rem;
-}
+
+    .p-left {
+        padding-left: 1rem;
+    }
+
+    #botao-home-menu {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
