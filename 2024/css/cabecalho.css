@@ -21,8 +21,16 @@
     /* Preto com 80% de opacidade */
 }
 
-.navbar-brand-fontsizesmall{
+.navbar-brand-customizado{
     font-size: 1.00rem;
+    line-height: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand-customizado i {
+    margin-right: 10px; /* Ajuste a margem para o espaço desejado entre o ícone e o texto */
 }
 
 .p-left{
@@ -30,9 +38,13 @@
 }
 
 #navbarNav{
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 #botao-home{
     display: none;
  }
+
+ .padding-customizado {
+    padding: .5rem 24rem;
+}

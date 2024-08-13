@@ -51,8 +51,8 @@
         bottom: 20px;
     }
 
-    .p-left {
-        padding-left: 1rem;
+    .padding-customizado {
+        padding: .5rem 1rem;
     }
 
     #botao-home-menu {
