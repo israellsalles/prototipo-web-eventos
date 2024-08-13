@@ -1,51 +1,53 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top padding-customizado">
-    <a class="navbar-brand navbar-brand-customizado" href="#"> 
-        <i id="botao-home" class="fas fa-home"></i>
-        <div>
-            XII FÓRUM BAIANO DE<br>
-        <b>ECONOMIA APLICADA</b><br>
-        <small>28 e 29 de setembro de 2023</small>
+    <div class="container"> <!-- Adicionando um container -->
+        <a class="navbar-brand navbar-brand-customizado" href="#">
+            <i id="botao-home" class="fas fa-home"></i>
+            <div>
+                XII FÓRUM BAIANO DE<br>
+                <b>ECONOMIA APLICADA</b><br>
+                <small>28 e 29 de setembro de 2023</small>
+            </div>
+        </a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#home"><i class="fas fa-home" id="botao-home-menu"></i></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">O evento</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#programacao">Programação</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#speakers">Palestrantes</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Ver mais
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#download">Download</a>
+                        <a class="dropdown-item" href="#gallery">Galeria</a>
+                        <a class="dropdown-item" href="#versoes">Versões Anteriores</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link pulse" href="#">Inscreva-se!</a>
+                </li>
+
+            </ul>
         </div>
-    </a>
-    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-
-            <li class="nav-item">
-                <a class="nav-link" href="#home"><i class="fas fa-home" id="botao-home-menu"></i></a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="#about">O evento</a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="#programacao">Programação</a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="#speakers">Palestrantes</a>
-            </li>
-
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Ver mais
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#download">Download</a>
-                    <a class="dropdown-item" href="#gallery">Galeria</a>
-                    <a class="dropdown-item" href="#versoes">Versões Anteriores</a>
-                </div>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link pulse" href="#">Inscreva-se!</a>
-            </li>
-
-        </ul>
-    </div>
+    </div> <!-- Fechando o container -->
 </nav>

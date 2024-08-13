@@ -1,3 +1,4 @@
+/*PARA RESOLUÇÃO MÁXIMA ATÉ 767*/
 @media (max-width: 767px) {
 
     .navbar-toggler .navbar-toggler-icon {
@@ -58,15 +59,4 @@
     #botao-home-menu {
         display: none;
     }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-    /* Estilos para tablets */
-    /* 
-
-#home {
-        background-image: url(../imgs/fundo-banner-mobile-tablet.png);
-    }
-
- */
 }
