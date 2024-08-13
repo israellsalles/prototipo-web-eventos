@@ -12,10 +12,6 @@
         /* Hamburger Icon */
     }
 
-    #botao-home {
-        display: inline !important;
-    }
-
     table th,
     table td {
         font-size: 12.5px;
@@ -34,9 +30,7 @@
         background-size: cover;
     }
 
-    .nav-link.pulse {
-        animation: none;
-    }
+  
 
     #botao-inscricao {
         display: flex;
@@ -56,7 +50,19 @@
         padding: .5rem 1rem;
     }
 
+
+}
+
+
+/*PARA RESOLÇÃO MÁXIMA DE 991 - MOMENTO EM QUE A BARRA DE MENU SE TRNAFORMA EM ICONE DE HAMBURGUER*/
+@media (max-width: 991px) {
+    #botao-home {
+        display: inline !important;
+    }
     #botao-home-menu {
         display: none;
+    }
+    .nav-link.pulse {
+        animation: none;
     }
 }
