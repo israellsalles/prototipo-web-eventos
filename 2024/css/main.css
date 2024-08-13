@@ -17,11 +17,13 @@ html {
     scroll-behavior: smooth;
 }
 
+/*PADDING BOOTSTRAP PERSONALIZADO PARA AS SEÇÕES*/
 .py-section-custom{
     padding-top: 4.5rem;
     padding-bottom: 2rem;
 }
 
+/*PARA ANIMAR O BOTÃO DE INSCRIÇÃO (MOBILE) E O LINK (DESKTOP)*/
 @keyframes pulse {
     0% {
         transform: scale(1);
