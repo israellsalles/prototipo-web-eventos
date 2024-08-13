@@ -24,3 +24,15 @@
 .navbar-brand-fontsizesmall{
     font-size: 1.00rem;
 }
+
+.p-left{
+    padding-left: 8rem;
+}
+
+#navbarNav{
+    justify-content: center;
+}
+
+#botao-home{
+    display: none;
+ }

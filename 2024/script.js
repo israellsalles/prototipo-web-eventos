@@ -8,7 +8,7 @@ $(document).ready(function () {
         {
           scrollTop: $(hash).offset().top,
         },
-        700,                                         
+        700,
         function () {
           window.location.hash = hash;
         }
@@ -70,5 +70,11 @@ $(document).ready(function () {
     }
   });
 
+  document.addEventListener("DOMContentLoaded", function () {
+    var navbarToggler = document.querySelector(".navbar-toggler");
 
+    navbarToggler.addEventListener("click", function () {
+      this.classList.toggle("collapsed");
+    });
+  });
 });
