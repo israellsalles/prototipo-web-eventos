@@ -8,22 +8,22 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="70">
 
     <!-- Barra de Navegação -->
-    <?php include('./snippets/nav.html'); ?>
+    <?php include('./snippets/barra-navegacao.html'); ?>
 
     <!-- Sessão Home -->
-    <?php include('./snippets/section-home.html'); ?>
+    <?php include('./snippets/home.html'); ?>
 
     <!-- Sessão Sobre -->
-    <?php include('./snippets/section-sobre.html'); ?>
+    <?php include('./snippets/sobre.html'); ?>
 
     <!-- Sessão de Programação -->
-    <?php include('./snippets/section-programacao.html'); ?>
+    <?php include('./snippets/programacao.html'); ?>
 
     <!-- Seção Palestrantes -->
-    <?php include('./snippets/section-palestrantes.html'); ?>
+    <?php include('./snippets/palestrantes.html'); ?>
 
     <!-- Sessão dos Patrocinadores -->
-    <?php include('./snippets/section-patrocinadores.html'); ?>
+    <?php include('./snippets/patrocinadores.html'); ?>
 
     <!-- Modal de Galeria -->
     <?php include('./snippets/modal-galeria.html'); ?>
