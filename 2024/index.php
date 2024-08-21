@@ -38,7 +38,7 @@
     <?php include('./snippets/float-botton.html'); ?>
 
     <!-- Footer -->
-    <?php include('./snippets/footer.html'); ?>
+    <?php include('./snippets/rodape.html'); ?>
 
     <!-- Chamada dos Scripts -->
     <?php include('./snippets/scripts.html'); ?>
