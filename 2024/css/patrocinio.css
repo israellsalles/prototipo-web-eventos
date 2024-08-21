@@ -1,22 +1,37 @@
-.patrocinio {
+/* .patrocinio {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-    gap: 10px; /* Espaço entre as imagens */
+    gap: 10px;
 }
 
 .patrocinio img {
     height: auto;
-    object-fit: contain; /* Mantém a proporção da imagem */
+    object-fit: contain;
 }
 
 .row-patrocinio {
     justify-content: center;
-}
+} */
+
 
 .h2-patrocinio {
     text-align: center;
     margin-top: .5rem;
+}
+
+.row-patrocinio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px; /* Espaço entre as imagens */
+}
+
+.row-patrocinio img {
+    height: auto;
+    object-fit: contain; /* Mantém a proporção da imagem */
 }

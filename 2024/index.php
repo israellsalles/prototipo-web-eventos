@@ -23,7 +23,7 @@
     <?php include('./snippets/palestrantes.html'); ?>
 
     <!-- Sessão dos Patrocinadores -->
-    <?php include('./snippets/patrocinadores.html'); ?>
+    <?php include('./snippets/patrocinio.html'); ?>
 
     <!-- Modal de Galeria -->
     <?php include('./snippets/modal-galeria.html'); ?>
