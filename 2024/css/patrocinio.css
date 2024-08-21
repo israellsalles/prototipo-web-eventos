@@ -1,22 +1,3 @@
-/* .patrocinio {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    gap: 10px;
-}
-
-.patrocinio img {
-    height: auto;
-    object-fit: contain;
-}
-
-.row-patrocinio {
-    justify-content: center;
-} */
-
-
 .h2-patrocinio {
     text-align: center;
     margin-top: .5rem;
