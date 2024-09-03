@@ -22,3 +22,18 @@
     background-color: #25D366;
     color: white;
 }
+
+/*PARA ANIMAR O BOTÃO DE INSCRIÇÃO (MOBILE) E O LINK (DESKTOP)*/
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

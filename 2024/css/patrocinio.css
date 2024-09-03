@@ -1,6 +1,7 @@
 .h2-patrocinio {
-    text-align: center;
-    margin-top: .5rem;
+    text-align: left;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .row-patrocinio {
@@ -9,10 +10,45 @@
     justify-content: space-evenly;
     align-items: center;
     margin-top: 10px;
-    gap: 10px; /* Espaço entre as imagens */
+    gap: 10px;
 }
 
 .row-patrocinio img {
     height: auto;
-    object-fit: contain; /* Mantém a proporção da imagem */
+    object-fit: contain;
+}
+
+/* .h2-patrocinio {
+    text-align: left;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+} */
+
+/* 
+.row-patrocinio {
+    margin-bottom: 1rem;
+} */
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.divisao {
+    border: 1px solid #000;
+    margin: 1rem 0;
+}
+
+@media (min-width: 768px) {
+
+    .col-md-3,
+    .col-md-4 {
+        padding: 10px 15px;
+    }
 }
