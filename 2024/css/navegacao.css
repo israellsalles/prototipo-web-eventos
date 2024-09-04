@@ -1,17 +1,9 @@
 
-/* Adicionar animação pulse ao item do menu "Inscreva-se Já" */
-.nav-link.pulse {
-    animation: pulse 1s infinite;
-    /* Aplica a animação pulse */
-    color: #ff0000 !important;
-    /* Cor para chamar atenção */
-    font-weight: bold;
-    /* Negrito para maior destaque */
-}
-
 .navbar-nav .nav-link.active {
     font-weight: bold;
-    /* Negrito para itens destacados */
+    border-radius: 5px;
+    background-color: gray;
+    box-shadow: 2px 2px 5px hsl(0deg 0% 0% / 30%);
 }
 
 

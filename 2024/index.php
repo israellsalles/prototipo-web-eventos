@@ -41,7 +41,7 @@
     <?php include('./snippets/modal-versoes.html'); ?>
 
     <!-- Modal de Versões Anteriores -->
-    <?php include('./snippets/float-botton.html'); ?>
+    <?php include('./snippets/botao-flutuante.html'); ?>
 
     <!-- Footer -->
     <?php include('./snippets/rodape.html'); ?>
