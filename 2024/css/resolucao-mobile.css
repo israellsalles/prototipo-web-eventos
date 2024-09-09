@@ -60,3 +60,10 @@
         display: none;
     }
 }
+
+/*Ajuste feito para diminuir a fonte dos itens de navegação quando o padding lateral bootstrap do conteúdo aumentar.*/
+@media (max-width: 1200px) {
+    .btn{
+        font-size: .9rem !important;
+    }
+}

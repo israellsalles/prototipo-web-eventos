@@ -29,6 +29,10 @@
     padding-left: 8rem;
 }
 
+.navbar-nav-custom{
+    gap: .5rem;
+}
+
 #navbarNav{
     justify-content: flex-end;
 }
