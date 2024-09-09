@@ -13,7 +13,7 @@
     /* Preto com 80% de opacidade */
 }
 
-.navbar-brand-customizado{
+.navbar-brand-custom{
     font-size: 1.00rem;
     line-height: 1;
     text-align: center;
@@ -21,7 +21,7 @@
     align-items: center;
 }
 
-.navbar-brand-customizado i {
+.navbar-brand-custom i {
     margin-right: 10px; /* Ajuste a margem para o espaço desejado entre o ícone e o texto */
 }
 
